@@ -14,6 +14,6 @@ class Config:
     CAPTION = os.environ.get("CAPTION", "")
     FILTER_TYPE = os.environ.get("FILTER_TYPE", "video")
     OWNER_ID = os.environ.get("OWNER_ID", 12345)
-    SESSION = os.environ.get("SESSION")
+    SESSION = os.environ.get("SESSION", "BACbgAGVQTEY6FSQoIt8770LZfmHcKvCmujgQzAQyza0w4eZ_4pSVoN-kMM6PbFeoa_5PDidzCTOrbEkxWAZ4n8izkqSTe1iMqbJ3aElwiz6SjiC00CtKd1gjr_RiKT9XKbuu2zF6NE9DpEAa5ftoGPQm4gJ6ghF_Ie_5wqeF6bFUt3tG9XBZv5bKoYvqvRLS27hUnrzIpLx7Hujwe1Lu6yuK65Irfp6xpW3ACaopUT6WAAiwnBBKDx5-q_lSt9f4MXyzFrlcoAfuuwiWQdW94vyX2fN3dLSmpReixiK2u5ICB04pbwcZzcGfLTMWUqWLn1Ar8TGVoPed8yeZAD3K_I5QKuL4AA")
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
