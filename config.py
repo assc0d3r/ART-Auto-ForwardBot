@@ -12,7 +12,7 @@ class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "")
-    FILTER_TYPE = os.environ.get("FILTER_TYPE", "document")
+    FILTER_TYPE = os.environ.get("FILTER_TYPE", "video")
     OWNER_ID = os.environ.get("OWNER_ID", 12345)
     SESSION = os.environ.get("SESSION")
 def LOGGER(name: str) -> logging.Logger:
